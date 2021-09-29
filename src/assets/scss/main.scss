@@ -1,0 +1,47 @@
+$primary: #ffd3b9;
+$link: #023e8a;
+$link-hover: #4895ef;
+$error: #fa2b66;
+$warning: #EDCF8E;
+
+@import "../../../node_modules/bulma/bulma.sass";
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+.post-info-box {
+    margin-top: auto;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    display: flex;
+}
+
+.card-image img {
+    height: 100%;
+}
+
+a {
+  transition: 0.3s ease;
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.card:hover {
+  transition: 0.3s ease;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.3);
+}
+
+.card-image {
+  filter: brightness(0.8);
+}
+.card:hover > .card-image {
+  transition: 0.3s ease;
+
+  filter: unset;
+}
+
+.image.is-256x256 {
+  height: 256px;
+  max-height: 256px;
+  max-width: 256px;
+  width: 256px;
+}
