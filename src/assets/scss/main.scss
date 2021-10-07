@@ -45,3 +45,10 @@ a {
   max-width: 256px;
   width: 256px;
 }
+
+
+@media screen and (min-width: $desktop) {
+  .is-justify-content-end-desktop {
+    justify-content: end !important;
+  }
+}
