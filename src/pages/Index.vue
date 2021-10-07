@@ -12,8 +12,8 @@
                 <p class="subtitle has-padding-top-0"> 🌿 Interesuję się zapewnianiem stabilności, skalowalności i wydajności usług.</p>
             <g-link to="/author/Julia" class="button is-primary is-rounded" >O mnie</g-link>
           </div>
-          <div class="column is-half-desktop has-text-right has-padding-top-60-mobile is-align-items-end is-flex is-justify-content-center	">
-            <g-image class="image is-256x256 " src="@/assets/images/avatarLg.jpeg" alt=""/>
+          <div class="column is-half-desktop has-text-right has-padding-top-60-mobile is-align-items-end is-flex is-justify-content-end	">
+            <g-image class="image is-256x256" src="@/assets/images/avatarLg.jpeg" alt=""/>
           </div>
         </div>
       </div>
