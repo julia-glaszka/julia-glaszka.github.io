@@ -97,6 +97,4 @@ Po wdrożeniu nowego typu preferencji warto mieć wgląd w metryki:
 
 ## Podsumowanie
 
-Jak widać, każde takie ustawienie trzeba samodzielnie przeanalizować, uwzględniając swoje własne wymagania względem stabilności. Wybranie konkretnej preferencji odczytu może mieć dalekosiężne skutki, dlatego przed wyborem zawsze warto się dłużej zastanowić i przeanalizować słabe punkty konkretnego rozwiązania.
-
-
+Jak widać, każde takie ustawienie trzeba samodzielnie przeanalizować, uwzględniając swoje własne wymagania względem stabilności. Wybranie konkretnej preferencji odczytu może mieć dalekosiężne skutki, dlatego przed wyborem zawsze warto się dłużej zastanowić i przeanalizować słabe punkty konkretnego rozwiązania. Polecam również zapoznać się z [oficjalną dokumentacją](https://docs.mongodb.com/manual/core/read-preference/).
