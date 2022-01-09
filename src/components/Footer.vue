@@ -17,7 +17,7 @@
           </p>
         </div>
         <div class="column has-text-centered has-text-right-tablet">
-          <p class="subtitle is-5"><span class="copyleft">&copy;</span> evilghostgirl</p>
+          <p class="subtitle is-5"><span class="copyleft">&copy;</span> juliagl</p>
         </div>
       </div>
     </div>
