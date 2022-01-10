@@ -1,6 +1,5 @@
 <template>
-  <Layout>
-    <JNavbar />
+  <Layout class="bg-white">
     <main>
       <navigation-back />
       <div class="section">
@@ -35,7 +34,6 @@
       </section>
       <pagination :base="`${$page.author.path}`" :info="$page.author.belongsTo.pageInfo"
         v-if="$page.author.belongsTo.pageInfo.totalPages > 1" />
-      <site-footer class="" />
     </main>
   </Layout>
 </template>
@@ -49,18 +47,14 @@
 </style>
 <script>
   import moment from 'moment'
-  import SiteFooter from '@/components/Footer'
   import Posts from '@/components/Posts'
   import Pagination from '@/components/Pagination'
   import NavigationBack from '@/components/NavigationBack'
-  import JNavbar from '@/components/JNavbar'
   export default {
     components: {
       Pagination,
-      SiteFooter,
       NavigationBack,
       Posts,
-      JNavbar
     },
     methods: {
       titleCase(str) {
@@ -73,38 +67,38 @@
 
 <page-query>
   query Author ($path: String!, $page: Int) {
-  author (path: $path) {
-  id
-  title
-  path
-  belongsTo (page: $page, perPage: 6) @paginate {
-  totalCount
-  pageInfo {
-  totalPages
-  currentPage
-  }
-  edges {
-  node {
-  ...on Post {
-  id
-  title
-  datetime: date (format: "YYYY-MM-DD HH:mm:ss")
-  path
-  cover
-  content
-  excerpt
-  description
-  timeToRead
-  tags {
-  id
-  title
-  path
-  }
-  }
-  }
-  }
-  }
-  }
+    author (path: $path) {
+      id
+      title
+      path
+      belongsTo (page: $page, perPage: 6) @paginate {
+        totalCount
+        pageInfo {
+          totalPages
+          currentPage
+        }
+        edges {
+          node {
+          ...on Post {
+              id
+              title
+              datetime: date (format: "YYYY-MM-DD HH:mm:ss")
+              path
+              cover
+              content
+              excerpt
+              description
+              timeToRead
+              tags {
+                id
+                title
+                path
+              }
+            }
+          }
+        }
+      }
+    }
   }
 </page-query>
 

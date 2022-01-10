@@ -1,6 +1,5 @@
 <template>
   <Layout class="bg-white">
-    <jNavbar/>
     <section class="section">
       <div class="container">
         <div class="columns is-vcentered">
@@ -35,25 +34,20 @@
        <pagination :info="$page.posts.pageInfo" v-if="$page.posts.pageInfo.totalPages > 1" />
 
 
-        <site-footer/>
 
   </Layout>
 </template>
 
 <script>
-  import SiteFooter from '@/components/Footer'
   import PostItem from '@/components/PostItem'
   import Pagination from '@/components/Pagination'
   import Posts from '@/components/Posts'
-  import JNavbar from '@/components/JNavbar'
 
   export default {
     components: {
       PostItem,
       Pagination,
-      SiteFooter,
       Posts,
-      JNavbar
     },
     metaInfo() {
       return {

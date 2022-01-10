@@ -1,6 +1,5 @@
 <template>
-  <Layout>
-  <jNavbar/>
+  <Layout class="bg-white">
     <main>
       <navigation-back />
       <header class="section">
@@ -31,7 +30,6 @@
       </section>
       <pagination :base="`${$page.tag.path}`" :info="$page.tag.belongsTo.pageInfo"
         v-if="$page.tag.belongsTo.pageInfo.totalPages > 1" />
-      <site-footer class="" />
     </main>
   </Layout>
 </template>
@@ -41,19 +39,15 @@
   import config from '~/.temp/config.js'
   import PostItem from '@/components/PostItem'
   import Posts from '@/components/Posts'
-  import SiteFooter from '@/components/Footer'
   import Pagination from '@/components/Pagination'
   import NavigationBack from '@/components/NavigationBack'
-  import JNavbar from '@/components/JNavbar'
 
   export default {
     components: {
       PostItem,
       Pagination,
-      SiteFooter,
       NavigationBack,
       Posts,
-      JNavbar
     },
 
     methods: {
