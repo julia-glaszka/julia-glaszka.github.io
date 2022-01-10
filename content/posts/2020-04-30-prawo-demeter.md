@@ -87,4 +87,4 @@ Podany przykład jest prosty. Popełnienie błędu z pierwszej sekcji nie jest f
 
 Na ile posiadamy czasu, warto zastanowić się nad rozluznieniem wiezi naszych obiektów póki nie ma dramatu - nie żyjemy w starożytnej Grecji, ale Prawo Demeter warto znać :) 
 
-Całość kodu można znaleźć na moim [githubie](https://github.com/evilghostgirl/law-of-demeter "githubie").
+Całość kodu można znaleźć na moim [githubie](https://github.com/julia-glaszka/law-of-demeter "githubie").

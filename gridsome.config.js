@@ -3,7 +3,7 @@ module.exports = {
   siteDescription: "Blog o moich samodzielnych zmaganiach z nauką z różnych dziedzin IT. ",
   titleTemplate: `%s | Julia Glaszka`,
   icon: 'static/favicon.png',
-  siteUrl: 'evilghostgirl.github.io/',
+  siteUrl: 'julia-glaszka.github.io/',
   // siteUrl: 'localhost',
   // pathPrefix: '/blog',
   transformers: {
