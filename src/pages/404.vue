@@ -17,7 +17,7 @@ import NavigationBack from '@/components/NavigationBack'
 export default {
   metaInfo () {
     return {
-      title: `Page Not Found (404)`,
+      title: `Strona nie znaleziona (404)`,
     }
   },
   components: {

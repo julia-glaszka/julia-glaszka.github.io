@@ -59,6 +59,7 @@ img {
 </style>
 <script>
   import moment from 'moment'
+  import 'moment/locale/pl'
   import NavigationBack from '@/components/NavigationBack'
   export default {
     props: ['post'],
@@ -75,7 +76,7 @@ img {
     },
     computed: {
       formattedPublishDate() {
-        return moment(this.post.datetime).format('DD MMMM, YYYY');
+        return moment(this.post.datetime).locale('pl').format('DD MMMM, YYYY');
       },
       speedFactor() {
         return this.post.fullscreen ? 0.21 : 0.37

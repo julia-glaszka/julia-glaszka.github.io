@@ -1,8 +1,8 @@
 $primary: black;
-$link: #023e8a;
+$link: #071528;
 $link-hover: #4895ef;
 $error: #fa2b66;
-$warning: #EDCF8E;
+$warning: #ff7492;
 
 @import "../../../node_modules/bulma/bulma.sass";
 
@@ -46,9 +46,21 @@ a {
   width: 256px;
 }
 
+@media screen and (min-width: $tablet) {
+  .is-flex-direction-row-tablet {
+    flex-direction: row !important;
+  }
+}
 
 @media screen and (min-width: $desktop) {
   .is-justify-content-end-desktop {
     justify-content: end !important;
   }
+ 
 }
+
+
+.has-background-transparent {
+  background-color: transparent;
+}
+

@@ -23,7 +23,7 @@
   </div>
     <footer class="card-footer">
     <g-link :to="`${author.path}/`" class="card-footer-item">
-            See all posts by {{ author.title }} &rarr;</g-link>
+            Zobacz wszystkie posty, których autorką jest {{ author.title }} &rarr;</g-link>
   </footer>
 </div>
 </template>

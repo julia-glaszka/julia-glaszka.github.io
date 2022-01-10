@@ -1,7 +1,7 @@
 <template>
   <div v-if="post" class="column is-full">
     <!-- Card start -->
-    <div class="card is-flex-direction-row" style="height: 100%">
+    <div class="card is-flex-direction-row-tablet" style="height: 100%">
 
       <div class="card-image column p-0 is-half" v-if="post.cover">
         <g-link :to="`${post.path}/`">
@@ -64,18 +64,20 @@
 
 <script>
   import moment from 'moment'
+  import 'moment/locale/pl'
+
   import PostTags from '@/components/PostTags'
   export default {
     props: ['post'],
     components: { PostTags },
     computed: {
       formattedPublishDate() {
-        return moment(this.post.datetime).format('DD MMMM, YYYY');
+        return moment(this.post.datetime).locale('pl').format('DD MMMM, YYYY');
       }
     },
     methods: {
       formatPublishDate(date) {
-        return moment(date).format('DD MMMM, YYYY');
+        return moment(date).locale('pl').format('DD MMMM, YYYY');
       },
       excerpt(post, length, clamp) {
         if (post.excerpt) {

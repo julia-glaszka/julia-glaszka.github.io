@@ -6,8 +6,8 @@
           <div class="column is-half-desktop">
             <g-link to="/" class="title is-spaced ">Hey, jestem Julia i zajmuję się inżynierią oprogramowania.</g-link>
 
-            <p class="subtitle has-padding-top-20 mb-3">💻 To mój technologiczny blog dotyczący różnych dziedzin IT.   </p>
-               <p class="subtitle has-padding-top-0 mb-3"> ☕ Mam doświadczenie głównie w JVM i bazach danych. </p>
+            <p class="subtitle has-padding-top-20 mb-3">💻 To mój technologiczny blog dotyczący IT.   </p>
+               <p class="subtitle has-padding-top-0 mb-3"> ☕ Mam doświadczenie głównie w JVM i bazach danych NoSQL. </p>
                 <p class="subtitle has-padding-top-0"> 🌿 Interesuję się zapewnianiem stabilności, skalowalności i wydajności usług.</p>
             <g-link to="/author/Julia" class="button is-primary is-rounded" >O mnie</g-link>
           </div>

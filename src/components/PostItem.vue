@@ -39,7 +39,6 @@
 
           <div class="content is-pulled-left">
             <span v-if="post.author">
-              by
               <g-link :to="`${post.author.path}/`" class="has-text-grey-darker">
                 {{ titleCase(post.author.title) }}
               </g-link>
@@ -71,6 +70,7 @@
 </style>
 <script>
   import moment from 'moment'
+  import 'moment/locale/pl'
   import PostTags from '@/components/PostTags'
   var gridset = [
     'is-one-third-desktop',
@@ -80,12 +80,14 @@
     'is-half-desktop', 
     'is-half-desktop',// row
   ];
+
+
   export default {
     components: { PostTags },
     props: ['post', 'index'],
     computed: {
       formattedPublishDate() {
-        return moment(this.post.datetime).format('DD MMMM, YYYY');
+        return moment(this.post.datetime).locale('pl').format('DD MMMM, YYYY');
       },
       classNameByIndex() {
         return gridset[this.index % gridset.length]
@@ -94,7 +96,7 @@
     },
     methods: {
       formatPublishDate(date) {
-        return moment(date).format('DD MMMM, YYYY');
+        return moment(date).locale('pl').format('DD MMMM, YYYY');
       },
       excerpt(post, length, clamp) {
         if (post.excerpt) {

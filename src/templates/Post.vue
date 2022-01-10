@@ -17,6 +17,7 @@
 
 <script>
   import moment from 'moment'
+  import 'moment/locale/pl'
   import config from '~/.temp/config.js'
   import Alert from '@/components/Alert'
   import PostHeader from '~/components/PostHeader'
@@ -50,7 +51,7 @@
     computed: {
       postIsOlderThanOneYear() {
         let postDate = moment(this.$page.post.datetime)
-        return moment().diff(postDate, 'years') > 0 ? true : false
+        return moment().locale('pl').diff(postDate, 'years') > 0 ? true : false
       },
     }
 
