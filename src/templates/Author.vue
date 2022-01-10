@@ -4,7 +4,7 @@
       <navigation-back />
       <div class="section">
         <div class="container">
-          <div class="columns  is-centered ">
+          <div class="columns is-centered">
             <div class="column is-half-desktop has-column-centered has-text-centered">
               <figure class="image is-128x128 is-centered">
                 <g-image class="is-rounded" src="@/assets/images/avatarLg.jpeg" alt="" />
