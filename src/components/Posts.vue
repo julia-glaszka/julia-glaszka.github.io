@@ -10,8 +10,8 @@
 </template>
 
 <script>
-  import PostItem from '@/components/PostItem'
-  import LargePostItem from '@/components/LargePostItem'
+  import PostItem from '@/components/tile/PostItem'
+  import LargePostItem from '@/components/tile/LargePostItem'
 
 export default {
    props: ['posts'],

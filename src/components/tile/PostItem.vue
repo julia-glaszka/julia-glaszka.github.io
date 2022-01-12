@@ -71,7 +71,7 @@
 <script>
   import moment from 'moment'
   import 'moment/locale/pl'
-  import PostTags from '@/components/PostTags'
+  import PostTags from '@/components/tag/Tags'
   var gridset = [
     'is-one-third-desktop',
     'is-one-third-desktop',

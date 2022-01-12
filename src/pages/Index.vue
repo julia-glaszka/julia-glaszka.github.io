@@ -39,7 +39,7 @@
 </template>
 
 <script>
-  import PostItem from '@/components/PostItem'
+  import PostItem from '@/components/tile/PostItem'
   import Pagination from '@/components/Pagination'
   import Posts from '@/components/Posts'
 

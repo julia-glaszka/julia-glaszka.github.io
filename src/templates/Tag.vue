@@ -37,7 +37,7 @@
 <script>
   import moment from 'moment'
   import config from '~/.temp/config.js'
-  import PostItem from '@/components/PostItem'
+  import PostItem from '@/components/tile/PostItem'
   import Posts from '@/components/Posts'
   import Pagination from '@/components/Pagination'
   import NavigationBack from '@/components/NavigationBack'

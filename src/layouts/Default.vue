@@ -8,8 +8,8 @@
 
 <script>
 import config from '~/.temp/config.js';
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
+import Footer from '@/components/global/Footer'
+import Navbar from '@/components/global/Navbar'
 
 export default {
   computed: {

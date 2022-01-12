@@ -18,10 +18,9 @@
 <script>
   import moment from 'moment'
   import 'moment/locale/pl'
-  import config from '~/.temp/config.js'
   import Alert from '@/components/Alert'
-  import PostHeader from '~/components/PostHeader'
-  import PostFooter from '~/components/PostFooter'
+  import PostHeader from '~/components/post/PostHeader'
+  import PostFooter from '~/components/post/PostFooter'
 
 
   export default {

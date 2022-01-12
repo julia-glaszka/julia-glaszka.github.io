@@ -66,7 +66,7 @@
   import moment from 'moment'
   import 'moment/locale/pl'
 
-  import PostTags from '@/components/PostTags'
+  import PostTags from '@/components/tag/Tags'
   export default {
     props: ['post'],
     components: { PostTags },
