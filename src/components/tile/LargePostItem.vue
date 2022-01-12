@@ -5,12 +5,12 @@
 
       <div class="card-image column p-0 is-half" v-if="post.cover">
         <g-link :to="`${post.path}/`">
-          <g-image :src="post.cover" alt="No photo" />
+          <g-image :src="post.cover" alt="Miniaturka posta" />
         </g-link>
       </div>
       <div class="card-image column p-0 is-half" v-else>
         <g-link :to="`${post.path}/`">
-          <g-image src="@/assets/images/no-image.jpg" alt="No photo" />
+          <g-image src="@/assets/images/no-image.jpg" alt="Brak zdjęcia" />
         </g-link>
       </div>
       <div class="card-content is-one-third is-flex-direction-column is-align-self-flex-end pb-0">

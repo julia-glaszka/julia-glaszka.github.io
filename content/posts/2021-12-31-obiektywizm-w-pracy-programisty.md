@@ -29,18 +29,18 @@ Są w życiu *tacy* pisarze, których się nie zapomina. Pod koniec czytania ksi
 
 Pojawia się *nowy wymiar*, na który wcześniej nie zwracało się uwagi, a sprawiający, że w życiu dostrzega się więcej. Tak właśnie miałam po *Atlasie Zbuntowanym* i później *Cnocie Egoizmu*. Te dwie książki i cała wyłożona w nich wykładnia *obiektywizmu i racjonalnego egoizmu* zmieniły moje życie na lepsze. Poukładały wiele spraw, które wcześniej nie były dla mnie intuicyjne czy jednoznaczne, szczególnie w kwestii **planowania, wartościowania i dokonywania wyborów**. Poczułam też wieloletni, głęboki przypływ **inspiracji i motywacji do poznawania świata i czynienia go lepszym**. Można powiedzieć, że obiektywizm przetarł mi szlaki na *przyszłość*, zrozumiałam czym dla mnie jest *sens życia* i finalnie umiem sprecyzować, *do czego dążę*. 
 
-Dzięki wejściu w głębię obiektywizmu, moje życie zaczęło działać jak na *autopilocie*. Często naturalnie wartościuję sprawy i rzadko mam różnego rodzaju *dysonanse*. Filozofia Rand pozwoliła mi zrozumieć, że w hierarchii poznawczej rozum zawsze powinien stać powyżej emocjami. 
+Dzięki wejściu w głębię obiektywizmu, moje życie zaczęło działać jak na *autopilocie*. Często naturalnie wartościuję sprawy i rzadko mam różnego rodzaju *dysonanse*. Filozofia Rand pozwoliła mi zrozumieć, że w hierarchii poznawczej **rozum** zawsze powinien stać **powyżej emocjami**. 
 
 > “Jeśli część pani niepewności stanowi konflikt pomiędzy sercem a umysłem, proszę się kierować umysłem.” ~ John Galt, Atlas Zbuntowany (Ayn Rand)
 
-Nie chodzi natomiast o całkowitą negację emocji, tylko **podporządkowanie** je rozumowi. Wiele emocji jest integralnych z rozumem i tym, kim jesteśmy. Niekiedy po prostu pojawia się nieoczekiwany **szum emocjonalny**, którego genezę trzeba zrozumieć i wykryć.
+Nie chodzi natomiast o całkowitą negację emocji, tylko **podporządkowanie** ich rozumowi. Wiele emocji jest integralnych z rozumem i tym, kim jesteśmy. Niekiedy po prostu pojawia się nieoczekiwany **szum emocjonalny**, którego genezę trzeba zrozumieć i wykryć.
 
 Zrozumienie dlaczego mózg reaguje na dane zdarzenie w konkretny sposób. Poznanie źródła tych emocji - skąd się wywodzą, jakie mają podłoże. Ułatwia to pracę, współpracę i zrozumienie innych osób, rozwijanie siebie i podejmowanie trudnych decyzji. 
 
 ### Parę słów o Ayn Rand 
-Twórczynią wymienionych wyżej dwóch książek była (tak, to kobieta) *Ayn Rand*, znakomitej rosyjskiej pisarki i filozof. Okres jej twórczości i aktywności w mediach przypadał na XX wiek, dokładniej od 1932 do jej śmierci w 1982. 
+Twórczynią wymienionych wyżej dwóch książek była (tak, to kobieta) **Ayn Rand**, znakomita rosyjska pisarka i filozof. Okres jej twórczości i aktywności w mediach przypadał na XX wiek, dokładniej od 1932 do jej śmierci w 1982. 
 
-W młodości interesowała się filozofią, w szczególnosci inspirowała ją *filozofia arystotelejska*, której elementy można dostrzec w jej dalszej twórczości. Okres dorastania autorki przypadł na czasy rewolucji komunistycznej. Sama jej rodzina również padla ofiara rewolucjonistów - ich dorobek życia został skonfiskowany przez bolszewików. Te nieprzyjemne doświadczenia pozwoliły jej dostrzec, jak ówczesny ustrój krzywdził i niszczył życia ludności Rosji. Zdecydowanie wpłynęło to na jej dalszą twórczość.
+W młodości interesowała się filozofią, w szczególnosci inspirowała ją *filozofia arystotelejska*, której elementy można dostrzec w jej dalszej twórczości. Okres dorastania autorki przypadł na czasy **rewolucji komunistycznej**. Sama jej rodzina również padła ofiarą rewolucjonistów - ich dorobek życia został skonfiskowany przez bolszewików. Te **straszne doświadczenia** pozwoliły jej dostrzec, jak ówczesny ustrój krzywdził i niszczył życia ludności Rosji. Zdecydowanie wpłynęło to na jej *awersję* do kolektywizmu.
 
 Po emigracji do USA jej kariera rozkwitła i mogła skupić się na swobodnym pisaniu. W jej dorobku są głównie powieści, ale również zajmowała się pisaniem scenariuszy i esejów. Pomimo rozległej wiedzy na temat filozofii, nie potrafiła się z żadną w pełni utożsamić, dlatego zaczęła tworzyć **swój własny system filozoficzno-moralny**, czyli obiektywizm. Dużą inspiracją był też jej mąż, Frank O'Connor, który wpasowywał się w jej etos moralny i jak sama twierdziła, mógł być inspiracją dla niektórych postaci jej powieści: 
 
