@@ -26,7 +26,6 @@ export default {
         .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
         .join(' ')
     },
-
   },
 
   computed: {
@@ -36,7 +35,6 @@ export default {
     avatar() {
       return `/assets/images/${this.post.author.id}.png`
     },
-
     postUrl() {
       let siteUrl = this.config.siteUrl
       let postPath = this.post.path

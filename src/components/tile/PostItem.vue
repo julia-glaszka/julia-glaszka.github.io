@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-half-tablet" :class="classNameByIndex">
+  <div class="column" :class="classNameByIndex">
     <!-- Card start -->
     <div class="card" style="height: 100%">
 
@@ -73,12 +73,12 @@
   import 'moment/locale/pl'
   import PostTags from '@/components/tag/Tags'
   var gridset = [
-    'is-one-third-desktop',
-    'is-one-third-desktop',
-    'is-one-third-desktop', // row
+    'is-half-tablet is-one-third-desktop',
+    'is-half-tablet is-one-third-desktop',
+    'is-half-tablet is-one-third-desktop', // row
 
-    'is-half-desktop', 
-    'is-half-desktop',// row
+    'is-half-tablet is-half-desktop', 
+    'is-full-tablet is-half-desktop',// row
   ];
 
 
