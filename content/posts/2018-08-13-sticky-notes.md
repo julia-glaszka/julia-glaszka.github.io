@@ -4,7 +4,7 @@ Po co używam sticky notes?"
 slug: sticky-notes
 description: "Po co używam sticky notes?"
 date: 2018-08-13 10:56:24
-author: Julia
+author: Julia Glaszka
 tags:
     - lifehack
 cover: /images/posts/sticky/0.jpg

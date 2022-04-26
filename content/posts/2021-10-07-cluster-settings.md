@@ -3,7 +3,7 @@ title: "Konfiguracja ClusterSettings w MongoDB Java Driver"
 slug: mongodb-java-driver-cluster-settings-properties
 description: "Konfiguracja ClusterSettings w MongoDB Java Driver"
 date: 2021-10-07 20:22:24
-author: Julia
+author: Julia Glaszka
 tags:
     - mongodb
     - java

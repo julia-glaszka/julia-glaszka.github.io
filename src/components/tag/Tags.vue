@@ -1,6 +1,6 @@
 <template>
-  <div v-if="tags && tags.length > 0" class="tags ">
-    <g-link :to="`${tag.path}/`" class="tag is-blue is-rounded is-outlined has-text-grey" v-for="(tag) in tags" >
+  <div class="tags" v-if="tags && tags.length > 0">
+    <g-link :to="`${tag.path}/`" :key="index" class="tag is-link is-rounded" v-for="(tag, index) in tags" >
       #{{ titleCase(tag.title) }}
     </g-link>
   </div>
@@ -19,9 +19,3 @@
     }
   }
 </script>
-
-<style lang="scss" scoped>
-  .is-blue {
-    background: #d9e5ff;
-  }
-</style>

@@ -95,7 +95,6 @@
             author {
               id
               title
-              path
             }
           }
         }

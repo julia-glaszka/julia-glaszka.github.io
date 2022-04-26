@@ -12,7 +12,7 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       plugins: [
         ['gridsome-plugin-remark-shiki', {
-          theme: 'nord',
+          theme: 'abyss',
           skipInline: true
         }]
       ],
@@ -43,8 +43,7 @@ module.exports = {
 
   templates: {
     Post: '/:title',
-    Tag: '/tag/:id',
-    Author: '/author/:id',
+    Tag: '/tag/:id'
   },
 
   chainWebpack: config => {

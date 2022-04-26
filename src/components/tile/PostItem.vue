@@ -1,11 +1,11 @@
 <template>
-  <div class="column" :class="classNameByIndex">
+  <div class="column" >
     <!-- Card start -->
     <div class="card" style="height: 100%">
 
       <div class="card-image p-0" v-if="post.cover">
         <g-link :to="`${post.path}/`">
-          <g-image :src="post.cover" alt="No photo"/>
+          <g-image :src="post.cover" alt="Post cover photo"/>
         </g-link>
       </div>
       <div class="card-image p-0" v-else>
@@ -19,7 +19,7 @@
           <g-link :to="`${post.path}/`">{{post.title}}</g-link>
         </h5>
 
-        <div class="subtitle is-size-6 has-text-grey	">
+        <div class="subtitle is-size-6 has-text-grey"  v-if="post.tags">
 
 
           <!-- tags -->
@@ -28,9 +28,9 @@
 
         </div>
 
-        <p class="has-text-grey	 is-size-6" v-html="excerpt(post, 180, ' ...')"></p>
+        <p class="has-text-grey	 is-size-6" v-html="excerpt(post, 180, ' ...')"  v-if="post.content"></p>
       </div>
-      <div class="card-content pt-0	post-info-box">
+      <div class="card-content pt-0	post-info-box" v-if="!shouldHidePostMetadata">
           <div class="is-pulled-left has-padding-right-10">
             <figure class="image is-48x48" v-if="post.author">
               <g-image class="is-rounded" src="@/assets/images/avatarLg.jpeg"  alt="X"/>
@@ -39,15 +39,15 @@
 
           <div class="content is-pulled-left">
             <span v-if="post.author">
-              <g-link :to="`${post.author.path}/`" class="has-text-grey-darker">
+              <span class="has-text-grey-darker">
                 {{ titleCase(post.author.title) }}
-              </g-link>
+              </span>
               <br>
             </span>
             <div class="has-text-grey-light">
-              <time :datetime="post.datetime" class="">{{ formatPublishDate(post.datetime) }}</time>
+              <time v-if="post.datetime" :datetime="post.datetime" class="">{{ formatPublishDate(post.datetime) }}</time>
               <span v-if="post.author || (post.tags && post.tags.length > 0)"> · </span>
-              <span>{{ post.timeToRead }} min</span>
+              <span v-if="post.timeToRead">{{ post.timeToRead }} min</span>
             </div>
 
           </div>
@@ -72,15 +72,7 @@
   import moment from 'moment'
   import 'moment/locale/pl'
   import PostTags from '@/components/tag/Tags'
-  var gridset = [
-    'is-half-tablet is-one-third-desktop',
-    'is-half-tablet is-one-third-desktop',
-    'is-half-tablet is-one-third-desktop', // row
-
-    'is-half-tablet is-half-desktop', 
-    'is-full-tablet is-half-desktop',// row
-  ];
-
+ 
 
   export default {
     components: { PostTags },
@@ -89,10 +81,10 @@
       formattedPublishDate() {
         return moment(this.post.datetime).locale('pl').format('DD MMMM, YYYY');
       },
-      classNameByIndex() {
-        return gridset[this.index % gridset.length]
+     
+      shouldHidePostMetadata() {
+        return !this.post || (!this.post.author && !this.post.datetime && !this.post.timeToRead && !this.post.tags)
       }
-
     },
     methods: {
       formatPublishDate(date) {

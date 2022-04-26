@@ -3,7 +3,7 @@ title: "Jak nie skrzywdzić swojego laptopa?"
 slug: usterki-laptopow
 description: "Jak nie skrzywdzić swojego laptopa?"
 date: 2018-07-10 10:56:24
-author: Julia
+author: Julia Glaszka
 tags:
     - laptopy
     - lifehack

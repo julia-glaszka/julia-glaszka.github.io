@@ -3,7 +3,7 @@ title: "Obiektywizm a rozwój w IT"
 slug: obiektywizm-a-rozwoj-w-IT
 description: "Czy można spójnie pogodzić filozofię i praktykę techniczną? Jak najbardziej!"
 date: 2021-12-31 18:37:24
-author: Julia
+author: Julia Glaszka
 tags:
     - obiektywizm
     - techniki miękkie
@@ -13,7 +13,6 @@ cover: /images/posts/obiektywizm/atlas.jpg
 
 ---
 
-# Obiektywizm a rozwój w IT
 Jednym z ważnych celów w życiu człowieka jest **satysfakcja z efektów produktywnej pracy** - zaplanowanej i zorganizowanej przez racjonalny umysł. Kreatywność i uzyskiwanie korzystnych rezultatów z podjętych przedsięwzięć umożliwia człowiekowi przeżycie w świecie pełnym zmian, niedoborów zasobów i niebezpieczeństw. **Inteligentne planowanie** pozwala na unikanie cierpienia i radzenie sobie z spotykanymi trudnościami. Esencją zadowolenia z własnej pracy jest właśnie **poczucie skuteczności i przydatności**. 
 
 Proces tworzenia w głównej mierze jest uzależniony od przyjętej filozofii i zaangażowania danej osoby - człowiek zmotywowany z pozytywną wizją świata osiągnie zdecydowanie lepsze efekty niż osoba bez poczucia sensu, wiary w siebie i postrzegająca świat jako za trudny do zrozumienia chaos. Jedną z filozofii, które mogą pomóc wytyczyć ścieżkę podejścia do życia i pracy, może być *obiektywizm* - czyli tak zwana **filozofia życia na ziemii**.

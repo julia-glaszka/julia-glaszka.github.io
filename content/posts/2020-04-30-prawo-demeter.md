@@ -3,7 +3,7 @@ title: "Prawo Demeter - zasada ograniczenia interakcji"
 slug: prawo-demeter
 description: "Krótka notatka o prawie demeter z przykładami"
 date: 2020-04-30 15:56:24
-author: Julia
+author: Julia Glaszka
 tags:
     - SOLID
     - javascript

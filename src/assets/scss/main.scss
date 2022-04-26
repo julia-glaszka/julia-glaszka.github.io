@@ -9,6 +9,28 @@ $warning: #ff7492;
 body {
   background-color: rgb(250, 250, 250);
 }
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+blockquote {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.68;
+}
+
+
+.post .content {
+  font-size: 1.1em;
+  line-height: 32px;
+}
+
 .post-info-box {
     margin-top: auto;
     padding-bottom: 1.5rem;
@@ -64,3 +86,8 @@ a {
   background-color: transparent;
 }
 
+.content blockquote {
+  background-color: transparent; 
+  border-left: 0px; 
+  padding: 1.25em 1.5em;
+}

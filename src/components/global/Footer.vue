@@ -9,9 +9,7 @@
               i nie pozwala,
               by cokolwiek stanęło między odpowiedzią 
               a jego umysłem. ~ "Atlas Shrugged", Ayn Rand</p>
-          <p class="pt-5">
-            <g-link class="has-text-grey" to="/author/Julia">O Autorce</g-link>
-          </p>
+              
           <p class="pt-1">
             <g-link class="has-text-grey mt-5" to="https://www.linkedin.com/in/julia-glaszka/">LinkedIn</g-link>
           </p>

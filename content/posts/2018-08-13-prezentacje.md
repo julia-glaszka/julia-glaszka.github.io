@@ -3,7 +3,7 @@ title: "Jak tworzyć wyjątkowe prezentacje? [DUŻO PRZYDATNYCH TIPÓW]"
 slug: niezwykłe-prezentacje
 description: "Jak tworzyć wyjątkowe prezentacje? [DUŻO PRZYDATNYCH TIPÓW]"
 date: 2018-08-13 15:56:24
-author: Julia
+author: Julia Glaszka
 tags:
     - design
     - marketing

@@ -4,7 +4,7 @@ Nie wiesz co klienci sądzą o twoim produkcie? Stwórz ankietę!"
 slug: ankiety-co-klienci-sadza-o-produkcie
 description: "Krótka notatka o prawie demeter z przykładami"
 date: 2018-11-07 10:56:24
-author: Julia
+author: Julia Glaszka
 tags:
     - marketing
 cover: /images/posts/ankiety/13.png

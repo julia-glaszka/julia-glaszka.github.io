@@ -9,10 +9,6 @@ export default function (Vue, { head }) {
   head.htmlAttrs = { lang: 'en', class: 'h-full' }
   head.bodyAttrs = { class: 'antialiased font-serif' }
 
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Montserrat|Work+Sans:700&display=swap'
-  })
   // Chrome, Firefox OS and Opera
   head.meta.push({
     name: 'theme-color',

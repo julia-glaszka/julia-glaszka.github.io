@@ -39,9 +39,9 @@
           <div class="content is-pulled-left">
             <span v-if="post.author">
               by
-              <g-link :to="`${post.author.path}/`" class="has-text-grey-darker">
+              <span class="has-text-grey-darker">
                 {{ titleCase(post.author.title) }}
-              </g-link>
+              </span>
               <br>
             </span>
             <div class="has-text-grey-light">

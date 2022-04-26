@@ -10,6 +10,7 @@
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
+    "axios": "^0.27.0",
     "bulma-helpers": "^0.3.10",
     "gridsome": "^0.7.13",
     "gridsome-plugin-remark-shiki": "^0.3.1",

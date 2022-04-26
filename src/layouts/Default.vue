@@ -1,9 +1,20 @@
 <template>
-  <div class="container-fluid">
+  <div> 
+
     <Navbar/>
+
     <slot/>
-    <Footer/>
+
+    
+
+ 
+    <div class="columns"> 
+      <div class="column is-full"> 
+        <Footer/>
+      </div>
+    </div>
   </div>
+
 </template>
 
 <script>

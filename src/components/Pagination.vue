@@ -16,7 +16,7 @@
           <div class="column has-text-right">
             <g-link :to="nextPage(info.currentPage,info.totalPages)"
               :class="{'is-hidden': info.currentPage == info.totalPages}"
-              class="button is-rounded is-small is-black"
+              class="button is-rounded is-black"
               :rel="info.currentPage == info.totalPages ? 'nofollow' : 'next'">
               Następna strona &rarr;
             </g-link>

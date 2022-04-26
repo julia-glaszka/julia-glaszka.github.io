@@ -4,7 +4,7 @@ Nowe narzędzie do projektowania i animowania UX?"
 slug: nowe-narzedzie-do-animowania-ux
 description: "Nowe narzędzie do projektowania i animowania UX?"
 date: 2018-09-07 10:56:24
-author: Julia
+author: Julia Glaszka
 tags:
     - design
 cover: /images/posts/atomic/1.gif

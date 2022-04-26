@@ -3,7 +3,7 @@ title: "Elasticsearch - to nie tylko logi."
 slug: elasticsearch-searching
 description: "Elasticsearch - nie tylko logi"
 date: 2020-09-07 22:56:24
-author: Julia
+author: Julia Glaszka
 tags:
     - elk
     - elasticsearch
