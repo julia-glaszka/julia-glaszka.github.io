@@ -1,13 +1,13 @@
 <template>
   <div v-if="author" class="has-text-centered">
-    <div class="block">
+    <div class="block sidebar-author-info">
       <figure class="image is-128x128 is-inline-block">
         <g-image class="is-rounded" src="@/assets/images/avatarLg.jpeg" :alt="author.title"/>
       </figure>
       <p class="title is-4 is-bold">
         {{ author.title }}
       </p>
-      <p class="subtitle is-6">
+      <p class="subtitle is-7">
         julia.anna.glaszka@interia.pl
       </p>
     </div>
@@ -26,7 +26,11 @@ export default {
 </script>
 
 <style>
-
+ .sidebar-author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
 </style>
 <static-query>
 query {
