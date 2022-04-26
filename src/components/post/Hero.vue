@@ -20,8 +20,6 @@ img {
 }
 </style>
 <script>
-import { fetch } from 'gridsome'
-
   export default {
     props: ['backgroundUrl', 'backgroundPosition', 'overlayDisabled'],
     computed: {
@@ -43,9 +41,3 @@ import { fetch } from 'gridsome'
   }
 
 </script>
-
-<style>
-.is-halfheight {
-  height: 50vh;
-}
-</style>

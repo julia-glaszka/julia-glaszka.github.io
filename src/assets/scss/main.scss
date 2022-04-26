@@ -68,6 +68,12 @@ a {
   width: 256px;
 }
 
+.is-halfheight {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
 @media screen and (min-width: $tablet) {
   .is-flex-direction-row-tablet {
     flex-direction: row !important;
@@ -78,7 +84,10 @@ a {
   .is-justify-content-end-desktop {
     justify-content: end !important;
   }
- 
+
+  .is-halfheight {
+    max-height: 50vh;
+  }
 }
 
 

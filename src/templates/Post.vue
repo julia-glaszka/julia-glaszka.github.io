@@ -145,11 +145,9 @@
     margin-top: 3rem;
     box-shadow: 0 0 10px 0 rgba(59, 59, 59, 0.226);
   }
-    .is-half-height {
-    height: auto;
-    max-height: 50vh;
-    width: 100%;
-    max-width: 100%;
-  }
+
+
+
+
 </style>
 
