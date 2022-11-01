@@ -1,17 +1,18 @@
 ---
 title: "Jak tworzyć wyjątkowe prezentacje? [DUŻO PRZYDATNYCH TIPÓW]"
 slug: niezwykłe-prezentacje
-description: "Jak tworzyć wyjątkowe prezentacje? [DUŻO PRZYDATNYCH TIPÓW]"
+description: "Przedstawię kilka przydatnych wskazówek, które zwiększą produktywność przy tworzeniu prezentacji. Przybliżę też, jak sprawić by prezentacja była ciekawsza. "
 date: 2018-08-13 15:56:24
 author: Julia Glaszka
 tags:
     - design
     - marketing
+    - soft skills
 cover: /images/posts/prezentacje/1.jpg
 ---
 
 ## Twój przełożony każe Ci stworzyć prezentację na temat waszej firmy. Znowu! Rwiesz wlosy z głowy, bo wiesz, jaka to czasochłonna i męcząca praca.  
-Okazuje się jednak, że nie musi być taka. Dzisiaj podzielę się z tobą kilkoma poradami, dzięki którym ochronisz swoją czuprynę : )
+Okazuje się jednak, że nie musi być taka. Dzisiaj podzielę się z tobą kilkoma poradami, dzięki którym przestaniesz się męczyć tworząc prezentacje : )
 
 Aby tworzyć prezentacje multimedialne potrzebujesz do tego różnego rodzaju narzędzi, które pomogą Ci złożyć ją w całość.  
 **Ja osobiście najczęściej używam:**  

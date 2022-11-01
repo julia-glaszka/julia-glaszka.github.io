@@ -1,13 +1,12 @@
 ---
 title: "Wykorzystaj cały potencjał klastra MongoDB z pomocą preferencji odczytu"
 slug: mongodb-read-preferences
-description: "Wykorzystaj cały potencjał klastra MongoDB z pomocą preferencji odczytu"
+description: "MongoDB dostarcza wiele mechanizmów sterowania consistency. Jak uzyskać większą przepustowość odczytu kosztem spójności danych? O tym w dzisiejszym poście!"
 date: 2021-11-15 18:37:24
 author: Julia Glaszka
 tags:
     - mongodb
     - java
-    - data
     - database
 cover: /images/posts/mongodb-read-preferences/route.jpg
 

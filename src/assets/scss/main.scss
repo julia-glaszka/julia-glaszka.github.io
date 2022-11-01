@@ -1,30 +1,55 @@
 $primary: black;
-$link: #071528;
+$secondary: #ffe7cb;
+$third: rgba(243,246,245, 1);
+$link: #363636;
 $link-hover: #4895ef;
 $error: #fa2b66;
-$warning: #ff7492;
-
+$warning: #e09891;
+$white: #fdfdfd;
 @import "../../../node_modules/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat&display=swap');
+
+$navbar-height: 4rem;
+
+
+@media screen and (min-width: $desktop) {
+  .is-spaced {
+    padding: 2rem;
+  }
+}
+
+.has-background-secondary {
+  background-color: $secondary;
+}
+
+.has-background-third {
+  background-color: $third;
+}
+
+.is-family-handwriting {
+  font-family: 'Berkshire Swash', cursive;
+  letter-spacing: 1px;
+  color: #665f60;
+}
 
 body {
   background-color: rgb(250, 250, 250);
+  font-family: 'Montserrat', sans-serif;
+
 }
 
-html,body
-{
+.section-title {
+  text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+html,body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
 }
-
-blockquote {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 1.68;
-}
-
 
 .post .content {
   font-size: 1.1em;
@@ -55,9 +80,9 @@ a {
 .card-image {
   filter: brightness(0.8);
 }
+
 .card:hover > .card-image {
   transition: 0.3s ease;
-
   filter: unset;
 }
 
@@ -74,6 +99,54 @@ a {
   max-width: 100%;
 }
 
+.content blockquote {
+  background-color: transparent; 
+  border-left: 0px; 
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.68;
+  padding: 1.25em 0;
+
+}
+
+.content blockquote span:before {
+   content: "";
+   display: block;
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 40px;
+   height: 5px;
+   background: #4a4a4a;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+
+}
+
+.content blockquote span {
+  font-size: 17px;
+  display: block;
+}
+
+
+.sidebar {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.sidebar .card-content {
+  padding: 0.5rem 1rem !important;
+}
+
+.sidebar .card-content .title {
+  font-size: 1.2rem !important;
+}
+
+ .sidebar .card-footer-item {
+  font-size: 0.9em !important;
+}
+
+
 @media screen and (min-width: $tablet) {
   .is-flex-direction-row-tablet {
     flex-direction: row !important;
@@ -88,6 +161,17 @@ a {
   .is-halfheight {
     max-height: 50vh;
   }
+
+  .content blockquote {
+    padding: 1.25em 1.5em;
+  }
+
+  .sidebar {
+    border-left: 1px solid whitesmoke;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+
 }
 
 
@@ -95,8 +179,3 @@ a {
   background-color: transparent;
 }
 
-.content blockquote {
-  background-color: transparent; 
-  border-left: 0px; 
-  padding: 1.25em 1.5em;
-}

@@ -27,7 +27,7 @@
               <alert v-if="postIsOlderThanOneYear" class="notification">
                 Ten post ma ponad rok, może być nieaktualny.
               </alert>
-              <div class="content has-text-justified" v-html="$page.post.content" />
+              <div class="content has-text-justified-desktop" v-html="$page.post.content" />
             </div>
           </div>
         </div>

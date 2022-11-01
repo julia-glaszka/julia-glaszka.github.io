@@ -1,8 +1,8 @@
 <template>
     <div class="columns is-multiline">
 
-          <large-post-item v-if="latest" :post="latest.node"/>
-          <post-item v-for="(edge, index) in nextPosts" :key="edge.node.id" :post="edge.node" :index="index" :class="classNameByIndex(index)"/>
+          <large-post-item v-if="latest" :post="latest.node" class="is-spaced"/>
+          <post-item v-for="(edge, index) in nextPosts" :key="edge.node.id" :post="edge.node" :index="index" class="is-spaced" :class="classNameByIndex(index)"/>
           
     </div>
 
@@ -43,6 +43,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
 </style>

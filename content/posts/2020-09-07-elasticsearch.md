@@ -1,13 +1,13 @@
 ---
 title: "Elasticsearch - to nie tylko logi."
 slug: elasticsearch-searching
-description: "Elasticsearch - nie tylko logi"
+description: "Elasticsearch to zaawansowany silnik wyszukiwań a jednocześnie baza danych pozwalająca na przechowywanie różnych typów danych. Wykorzystywana jest głównie przy komercyjnych wyszukiwarkach oraz przy gromadzeniu logów systemowych. Dzięki Elasticsearch, możesz wykonywać skomplikowane wyszukiwania, filtry i agregacje, a także wykorzystywać słowniki."
 date: 2020-09-07 22:56:24
 author: Julia Glaszka
 tags:
     - elk
     - elasticsearch
-    - data
+    - inżynieria
     - database
 cover: /images/posts/elasticsearch-zapytania/searching.jpg
 
@@ -19,6 +19,10 @@ Elasticsearch to zaawansowany silnik wyszukiwań a jednocześnie baza danych poz
 Ogólnie myślę, że sensownie będzie zapisywać działania do plików, dzięki czemu będzie łatwiej zrekonstruować listę kroków. Warto utworzyć tworzyć osobny katalog na czas ćwiczeń. Całość prawdopodobnie złożę jako projekt na githubie, więc będzie dostępny do sklonowania. 
 ### Przykładowy use case
 Razem z moim trzyosobowym zespołem w ramach hobbystycznych praktyk rozwijaliśmy mini-platformę do wystawiania ogłoszeń. Jednym z wymagań była wyszukiwarka, dzięki której mozna wyszukiwać produkty: po tytule, slowach kluczowych, kategorii, cenie i lokalizacji. Zdecydowaliśmy się na elasticsearch, ponieważ wspiera wyszukiwanie pełnotekstowe i geograficzne.
+
+![](/images/posts/elasticsearch-zapytania/searching.jpg)
+
+
 ### Setup
 Na potrzeby zabawy postawimy sobie 2 kontenery dockerowe z elasticem + kibaną. Zdefiniowaliśmy:
 * 1 kontener z elasticsearch w wersji 7.8.0
@@ -80,6 +84,7 @@ docker ps
 ```
 
 Powinny się nam pojawić 2 działajace kontenery. Jeśli tak, to fajnie. :)
+
 
 ### Model danych
 Zanim cokolwiek ciekawego zaczniemy robić, musimy zamodelować nasze dane. 

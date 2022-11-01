@@ -1,21 +1,21 @@
 ---
 title: "Prawo Demeter - zasada ograniczenia interakcji"
 slug: prawo-demeter
-description: "Krótka notatka o prawie demeter z przykładami"
+description: "Jak projektować architekturę swojego kodu, aby uniknąć spaghetti code? Co to jest loose coupling i jak jest związany z prawem Demeter? Na przykładzie prostego kodu pokażę, jak można to prosto osiągnąć."
 date: 2020-04-30 15:56:24
 author: Julia Glaszka
 tags:
-    - SOLID
+    - clean code
     - javascript
     - TypeScript
-    - programowanie
+    - inżynieria
 cover: /images/posts/prawo-demeter/cover.jpg
 
 
 ---
 
 Przy projektowaniu obiektowym możemy się zastanowić, w jaki sposób uprościć relacje między naszymi obiektami, tak aby zmiana w jednej klasie nie propagowała konieczności zmian w wielu innych. 
-Z pomocą przychodzi nam [**prawo Demeter,** ](https://pl.wikipedia.org/wiki/Prawo_Demeter "**prawo Demeter,** ")które w skrócie ogranicza nas do interakcji jedynie z najbliższymi sąsiednimi obiektami. Dzięki temu, nasz obiekt jest zależny tylko od swoich sąsiadów. Kiedy implementacja sąsiada naszego sąsiada się zmieni - nie interesuje nas to. Jest to tak zwany luźny związek (*ang. loose coupling*). 
+Z pomocą przychodzi nam [**prawo Demeter,** ](https://pl.wikipedia.org/wiki/Prawo_Demeter "**prawo Demeter** "), które w skrócie ogranicza nas do interakcji jedynie z najbliższymi sąsiednimi obiektami. Dzięki temu, nasz obiekt jest zależny tylko od swoich sąsiadów. Kiedy implementacja sąsiada naszego sąsiada się zmieni - nie interesuje nas to. Jest to tak zwany luźny związek (*ang. loose coupling*). 
 Nie łamiemy w ten sposób zasady enkapsulacji obiektu i nie tworzymy dużej ilości powodów, dla których mielibyśmy modyfikować naszą klasę. W ten sposób możemy sprawić, że nasz projekt jest zgodny z zasadami [SOLID](https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)).
 Poniżej, na przykładzie logiki aplikacji quizowej, możemy przeanalizować przypadek **tight coupled** (1) i** loose coupled** (2). 
 
@@ -84,6 +84,7 @@ class QuizLooseCoupled {
 
 ```
 Podany przykład jest prosty. Popełnienie błędu z pierwszej sekcji nie jest fatalne w skutkach, refaktoryzacja zajmie pół minuty. W przypadku większych aplikacji z wieloma tight coupled obiektami może powstać problem, który poskutkuje efektem domina - naprawiając jeden obiekt, musimy naprawić 2,3,4 następnych…
+
 
 Na ile posiadamy czasu, warto zastanowić się nad rozluznieniem wiezi naszych obiektów póki nie ma dramatu - nie żyjemy w starożytnej Grecji, ale Prawo Demeter warto znać :) 
 

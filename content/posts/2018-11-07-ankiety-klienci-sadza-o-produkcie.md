@@ -1,8 +1,7 @@
 ---
-title: "
-Nie wiesz co klienci sądzą o twoim produkcie? Stwórz ankietę!"
+title: "Nie wiesz co klienci sądzą o twoim produkcie? Stwórz ankietę!"
 slug: ankiety-co-klienci-sadza-o-produkcie
-description: "Krótka notatka o prawie demeter z przykładami"
+description: "Pobieżne przejrzenie trendów i analizowanie ich tak, by potwierdzały nasze własne tezy, jest bardzo złudną pułapką, którą sami sobie możemy stworzyć. By temu zapobiec i nie stracić pieniędzy, konieczne jest dokładne wybadanie potrzeb konsumentów. Poza standardową analizą rynku - z pomocą przychodzą nam proste, bardzo niedocenione narzędzia - ankiety."
 date: 2018-11-07 10:56:24
 author: Julia Glaszka
 tags:

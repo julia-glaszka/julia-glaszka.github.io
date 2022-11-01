@@ -2,9 +2,9 @@
   <div v-if="author" class="has-text-centered">
     <div class="block sidebar-author-info">
       <figure class="image is-128x128 is-inline-block">
-        <g-image class="is-rounded" src="@/assets/images/avatarLg.jpeg" :alt="author.title"/>
+        <g-image class="is-rounded" src="@/assets/images/profile-picture-avatar.png" :alt="author.title"/>
       </figure>
-      <p class="title is-4 is-bold">
+      <p class="title is-4 is-bold pt-5">
         {{ author.title }}
       </p>
       <p class="subtitle is-7">

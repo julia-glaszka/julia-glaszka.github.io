@@ -7,3 +7,7 @@ dist
 static/feed.xml
 .DS_Store
 package-lock.json
+content/posts/2022-04-05-wlasna-biblioteka-w-spring-boot.md
+content/posts/2022-11-26-wypalenie.md
+static/images/posts/wypalenie
+static/images/posts/driver

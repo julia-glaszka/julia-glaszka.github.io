@@ -15,7 +15,7 @@
       </div>
       <div class="card-content is-one-third is-flex-direction-column is-align-self-flex-end pb-0">
 
-        <h5 class="title is-size-4 has-padding-bottom-10 ">
+        <h5 class="title is-size-5 has-padding-bottom-10 ">
           <g-link :to="`${post.path}/`">{{post.title}}</g-link>
         </h5>
 
@@ -28,11 +28,11 @@
 
         </div>
 
-        <p class="has-text-grey	 is-size-6" v-html="excerpt(post, 180, ' ...')"></p>
+        <p class="has-text-grey	 is-size-6"  v-if="post.description"> {{post.description}}</p>
         <div class=" post-info-box">
           <div class="is-pulled-left has-padding-right-10">
             <figure class="image is-48x48" v-if="post.author">
-              <g-image class="is-rounded" src="@/assets/images/avatarLg.jpeg" alt="X" />
+              <g-image class="is-rounded" src="@/assets/images/profile-picture-avatar.png" alt="X" />
             </figure>
           </div>
 
@@ -78,17 +78,6 @@
     methods: {
       formatPublishDate(date) {
         return moment(date).locale('pl').format('DD MMMM, YYYY');
-      },
-      excerpt(post, length, clamp) {
-        if (post.excerpt) {
-          return post.excerpt
-        }
-
-        length = length || 180
-        clamp = clamp || ' ...'
-        let text = post.content.replace(/<pre(.|\n)*?<\/pre>/gm, '').replace(/<[^>]+>/gm, '')
-
-        return text.length > length ? `${ text.slice(0, length)}${clamp}` : text
       },
       titleCase(str) {
         return str.replace('-', ' ').split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ')

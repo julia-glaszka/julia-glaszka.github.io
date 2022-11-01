@@ -35,21 +35,6 @@ import PostItem from '@/components/tile/PostItem'
 </script>
 
 <style lang="scss">
-  .sidebar {
-    font-size: 16px;
-    line-height: 1.8;
-  }
-  
-  .sidebar .card-content {
-    padding: 0.5rem 1rem !important;
-  }
-  
-  .sidebar .card-content .title {
-    font-size: 1.2rem !important;
-  }
 
-   .sidebar .card-footer-item {
-    font-size: 0.9em !important;
-  }
 </style>
 

@@ -1,8 +1,7 @@
 ---
-title: "
-Nowe narzędzie do projektowania i animowania UX?"
+title: "Atomic.io - nowe narzędzie do projektowania i animowania UX?"
 slug: nowe-narzedzie-do-animowania-ux
-description: "Nowe narzędzie do projektowania i animowania UX?"
+description: "W związku z postępem technologicznym projektanci aplikacji i stron internetowych mają przed sobą coraz większe szanse na zachwycanie użytkowników. Z pomocą przychodzą odpowiednie narzędzia do designu. W tym poście przedstawię jedno z nich - atomic.io."
 date: 2018-09-07 10:56:24
 author: Julia Glaszka
 tags:

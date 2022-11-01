@@ -1,7 +1,7 @@
 ---
 title: "Jak nie skrzywdzić swojego laptopa?"
 slug: usterki-laptopow
-description: "Jak nie skrzywdzić swojego laptopa?"
+description: "Przy codziennej eksploatacji komputera łatwo zaniedbać jego wygląd. Jazda środkami komunikacji, częste przenoszenie i zmienne warunku pogodowe potrafią źle wpłynąć na estetykę laptopa. Długotrwałe zaniedbanie potrafi już pozostawić ślad na stałe. Kilka prostych nawyków, które pozwolą cieszyć się swoim laptopem przez długi czas!"
 date: 2018-07-10 10:56:24
 author: Julia Glaszka
 tags:
@@ -46,7 +46,7 @@ Noś laptopa w etui, najlepiej dość twardym i odpornym na obicia. Nowsze lapto
 
 ### 5. Podnoszenie za klapę
 
-To nie moja działka, ale znam osobę co wbiła palec w matrycę podnosząc go. No i pękło, jak każdy delikatny sprzet.  REEEE
+Akurat ja tak nie robię, ale jedna z moich znajomych podnosząc laptopa za klapę - wbiła palec w matrycę. No i pękło, jak każdy delikatny sprzęt. :(
 
 ### 6. Uduszenie laptopa
 
@@ -55,5 +55,10 @@ Przy nocnym leżeniu z komputerem, czasem kładę go na kołdrę. Trzeba uważa�
 ### 7. Szybkie zamykanie klapy
 
 A w szczególności szybkie zamknięcie klapy razem ze słuchawkami († matryca i † zawiasy) :)
+
+
+### 8. Mróz
+
+Staraj się unikać włączania laptopa po przebywaniu przez długi czas na mrozie. Baterie nie lubią nagłej zmiany temperatur - w przypadku nagłego uruchomienia można w ten sposób uszkodzić baterię. Ogrzewanie poprzez kaloryfer jest również niewskazane.
 
 To taki krótki, losowy post. Głównie checklista dla mnie, żeby pamiętać jak nie zepsuć swojego laptopa. 

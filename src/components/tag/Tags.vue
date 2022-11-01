@@ -1,6 +1,6 @@
 <template>
   <div class="tags" v-if="tags && tags.length > 0">
-    <g-link :to="`${tag.path}/`" :key="index" class="tag is-link is-rounded" v-for="(tag, index) in tags" >
+    <g-link :to="`${tag.path}/`" :key="index" class="tag is-rounded" v-for="(tag, index) in tags" >
       #{{ titleCase(tag.title) }}
     </g-link>
   </div>

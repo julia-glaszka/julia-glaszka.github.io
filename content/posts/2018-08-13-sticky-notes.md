@@ -2,11 +2,11 @@
 title: "
 Po co używam sticky notes?"
 slug: sticky-notes
-description: "Po co używam sticky notes?"
+description: "Jestem z IT. I wbrew pozorom, moim pierwszym narzędziem od którego zaczynam pracę, nie jest komputer! Tak, PC bardzo usprawnia pracę i umożliwia rzeczy niemożliwe, ale to my podejmujemy kluczowe decyzje. I tutaj w pomocy nam przychodzą samoprzylepne karteczki!"
 date: 2018-08-13 10:56:24
 author: Julia Glaszka
 tags:
-    - lifehack
+    - soft skills
 cover: /images/posts/sticky/0.jpg
 ---
 

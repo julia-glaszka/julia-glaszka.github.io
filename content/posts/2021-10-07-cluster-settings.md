@@ -1,22 +1,21 @@
 ---
 title: "Konfiguracja ClusterSettings w MongoDB Java Driver"
 slug: mongodb-java-driver-cluster-settings-properties
-description: "Konfiguracja ClusterSettings w MongoDB Java Driver"
+description: "Powszechnie wykorzystywane klienty do łączenia się z bazą danych dostarczają wiele przydatnych funkcjonalności i możliwości konfiguracji. Warto poznać parę ustawień, które potencjalnie mogą usprawnić pracę Twoich aplikacji."
 date: 2021-10-07 20:22:24
 author: Julia Glaszka
 tags:
     - mongodb
     - java
-    - data
     - database
-cover: /images/posts/cluster-settings-mongo/local-threshold.png
+cover: /images/posts/cluster-settings-mongo/adjusting.jpg
 
 
 ---
 
-Powszechnie wykorzystywane klienty do łączenia się z bazą danych dostarczają wiele funkcjonalności i możliwości konfiguracji, które można przeoczyć - a są bardzo przydatne i mogą zoptymalizować działanie usługi. Warto poznać parę przydatnych settingsów, które potencjalnie można przetestować.
+Powszechnie wykorzystywane klienty do łączenia się z bazą danych dostarczają wiele funkcjonalności i możliwości konfiguracji, które można przeoczyć - a są bardzo przydatne i mogą zoptymalizować działanie usługi. Warto poznać parę przydatnych ustawień, które potencjalnie można przetestować w swoich aplikacjach.
 
-### Czym są drivery?
+### Czym są drivery do baz danych?
 
 Drivery działają z reguły w taki sposób, że zarządzają połączeniami otwieranymi do bazy danych, dostarczając przydatne funkcje i logikę - na przykład ograniczeniem puli połączeń czy eliminacji gorzej działających hostów. Owrapowują całą logikę w przyjazny interfejs api, odciążając programistę od rozumienia internali Takich rzeczy raczej nie opłaca się implementować samemu od zera, ale nie oznacza to że jest to niewykonalne. Są różne drivery i można nawet do nich kontrybuować, bo w większości przypadków są open-source.
 
