@@ -5,7 +5,7 @@
         <div class="container">
           <div class="columns is-vcentered">
             <div class="column is-half-desktop">
-              <p class="title is-spaced is-size-1">Hey, jestem Julia i zajmuję się <i class="is-underlined">inżynierią oprogramowania.</i></p>
+              <p class="title is-spaced is-size-1-tablet	is-size-3-mobile	">Hey, jestem Julia i zajmuję się <i class="is-underlined">inżynierią oprogramowania.</i></p>
               <p class="subtitle has-padding-top-20 mb-3">💻 To mój personalny blog o IT i nie tylko.   </p>
               <p class="subtitle has-padding-top-0 mb-3"> ☕ Mam doświadczenie w JVM i bazach danych NoSQL. </p>
               <p class="subtitle has-padding-top-0"> 🌿 Interesuję się zapewnianiem stabilności, skalowalności i wydajności usług.</p>
