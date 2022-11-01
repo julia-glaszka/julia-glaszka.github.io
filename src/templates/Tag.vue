@@ -7,7 +7,7 @@
           <div class="">
 
 
-             <p class="is-size-6">{{ $page.tag.belongsTo.totalCount }} posts in total</p>
+             <p class="is-size-6">{{ $page.tag.belongsTo.totalCount }} posty</p>
             <h1 class="title"> <figure class="image is-24x24 m-r-sm">
               <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" role="img" aria-labelledby="tagIcon">
 
