@@ -1,18 +1,8 @@
 <template>
   <div> 
-
     <Navbar/>
-
     <slot/>
-
-    
-
- 
-    <div class="columns"> 
-      <div class="column is-full"> 
-        <Footer/>
-      </div>
-    </div>
+    <Footer/>
   </div>
 
 </template>
