@@ -38,7 +38,6 @@
 
           <div class="content is-pulled-left">
             <span v-if="post.author">
-              by
               <span class="has-text-grey-darker">
                 {{ titleCase(post.author.title) }}
               </span>
