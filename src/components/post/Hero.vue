@@ -10,14 +10,9 @@
 </template>
 
 <style lang="scss" scoped>
-
-  .image-container {
-    justify-content: center;
-    display: flex;
+  img {
+    margin: auto;
   }
-img {
-  margin: auto;
-}
 </style>
 <script>
   export default {

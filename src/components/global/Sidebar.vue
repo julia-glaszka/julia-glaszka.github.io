@@ -17,10 +17,9 @@
 </template>
 
 <script>
-
-import AuthorInfo from '@/components/AuthorInfo'
-import PostTags from '@/components/tag/Tags'
-import PostItem from '@/components/tile/PostItem'
+  import AuthorInfo from '@/components/AuthorInfo'
+  import PostTags from '@/components/tag/Tags'
+  import PostItem from '@/components/tile/PostItem'
 
   export default {
     name: 'Sidebar',
@@ -33,8 +32,3 @@ import PostItem from '@/components/tile/PostItem'
   }
 
 </script>
-
-<style lang="scss">
-
-</style>
-

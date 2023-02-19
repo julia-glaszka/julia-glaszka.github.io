@@ -8,7 +8,7 @@
         {{ author.title }}
       </p>
       <p class="subtitle is-7">
-        julia.anna.glaszka@interia.pl
+        {{ $static.metadata.email }}
       </p>
     </div>
     
@@ -35,7 +35,8 @@ export default {
 <static-query>
 query {
   metadata {
-    shortAboutAuthor
+    shortAboutAuthor,
+    email
   }
 }
 </static-query>

@@ -7,8 +7,7 @@ module.exports = function (api) {
     `Moim ulubionym językiem jest Java i w niej pracuję na codzień, umiem też kodzić w Javascript'cie, w Kotlinie, Groovym, Golangu (i w paru innych językach).`,  
     `Z prywatnych rzeczy: uwielbiam ekonomię i finanse, muzykę, sztukę. Mam dwa króliki miniaturki i kocham góry. Ostatnio zafascynowałam się krajami Bałkanami. 
     Raczej introwertyk, mimo to nie mam problemów z pracą zespołową czy komunikacją. :) Na bloga wrzucam rzeczy, na których napisanie akurat miałam ochotę i uznałam, że warto się podzielić taką wiedzą. `])
-    store.addMetadata('shortAboutAuthor', [`Pasjonuję się IT, ekonomią i muzyką. 
-    Moim ulubionym językiem jest Java i w niej pracuję na codzień.` 
-    ])
+    store.addMetadata('shortAboutAuthor', [`Pasjonuję się IT, ekonomią i muzyką. Moim ulubionym językiem jest Java i w niej pracuję na codzień.` ])
+    store.addMetadata('email', "julia.anna.glaszka@interia.pl")
   })
 }
