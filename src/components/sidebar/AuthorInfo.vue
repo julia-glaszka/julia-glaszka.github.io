@@ -1,8 +1,8 @@
 <template>
-  <div v-if="author" class="has-text-centered">
+  <div v-if="author">
     <div class="block sidebar-author-info">
       <figure class="image is-128x128 is-inline-block">
-        <g-image class="is-rounded" src="@/assets/images/profile-picture-avatar.png" :alt="author.title"/>
+        <g-image class="is-rounded" src="@/assets/images/profile-picture-avatar.jpeg" :alt="author.title"/>
       </figure>
       <p class="title is-4 is-bold pt-5">
         {{ author.title }}
@@ -13,7 +13,7 @@
     </div>
     
 
-    <div class="content" v-for="line in $static.metadata.shortAboutAuthor" >
+    <div class="content" style="font-size: 12px;" v-for="line in $static.metadata.shortAboutAuthor" >
         <p> {{line}} </p>
     </div>
   </div>

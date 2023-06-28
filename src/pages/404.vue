@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import NavigationBack from '@/components/NavigationBack'
+import NavigationBack from '@/components/navigation/NavigationBack'
 export default {
   metaInfo () {
     return {

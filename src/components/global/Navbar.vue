@@ -1,13 +1,7 @@
 <template>
-    <!-- <nav class="navbar">
-      <div class="navbar-brand container has-text-centered">
-        
-      </div>
-    </nav> -->
-
-  <nav class="navbar is-transparent">
+  <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item has-text-weight-semibold has-text-black-bis	" href="/">✨ Julia Glaszka</a>
+      <a class="navbar-item has-text-weight-semibold" href="/">Julia Glaszka</a>
       <div class="navbar-burger" @click="nav_active = !nav_active">
         <span></span>
         <span></span>

@@ -1,6 +1,6 @@
 <template>
   <nav class="container">
-      <g-link to="/" class="has-text-white">
+      <g-link to="/">
         &larr; Powrót
       </g-link>
   </nav>

@@ -12,18 +12,18 @@ export default function (Vue, { head }) {
   // Chrome, Firefox OS and Opera
   head.meta.push({
     name: 'theme-color',
-    content: '#261447'
+    content: '#fff'
   })
   //  Windows Phone
   head.meta.push({
     name: 'msapplication-navbutton-color',
-    content: '#261447'
+    content: '#fff'
   })
 
   // iOS Safari
   head.meta.push({
     name: 'apple-mobile-web-app-status-bar-style',
-    content: '#261447'
+    content: '#fff'
   })
 
 //favicon

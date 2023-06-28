@@ -12,7 +12,7 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       plugins: [
         ['gridsome-plugin-remark-shiki', {
-          theme: 'nord',
+          theme: 'hc_black',
           skipInline: true
         }]
       ],

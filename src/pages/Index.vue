@@ -1,18 +1,14 @@
 <template>
-  <Layout class="bg-white">  
-    <section class="section hero is-fullheight">
+  <Layout>  
+    <section class="section hero">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
-            <div class="column is-half-desktop">
+            <div class="column">
               <p class="title is-spaced is-size-1-tablet	is-size-3-mobile	">Hey, jestem Julia i zajmuję się <i class="is-underlined">inżynierią oprogramowania.</i></p>
-              <p class="subtitle has-padding-top-20 mb-3">💻 To mój personalny blog o IT i nie tylko.   </p>
-              <p class="subtitle has-padding-top-0 mb-3"> ☕ Mam doświadczenie w JVM i bazach danych NoSQL. </p>
-              <p class="subtitle has-padding-top-0"> 🌿 Interesuję się zapewnianiem stabilności, skalowalności i wydajności usług.</p>
-            </div>
-
-            <div class="column is-half-desktop has-text-right has-padding-top-60-mobile">
-                  <g-image class="image" src="@/assets/images/hero-2.png" alt=""/>
+              <p class="subtitle has-padding-top-0 mb-3">Mam doświadczenie w JVM i bazach danych NoSQL. </p>
+              <p class="subtitle has-padding-top-0 mb-3"> Interesuję się zapewnianiem stabilności, skalowalności i wydajności usług.</p>
+              <p class="subtitle has-padding-top-0"> Lubię widzieć efekty swojej pracy i dostarczać wartość dla biznesu.</p>
             </div>
           </div>
         </div>
@@ -20,11 +16,11 @@
     </section>
 
 
-    <section id="about" class="section has-background-black is-medium">
+    <section id="about" class="section is-medium">
       <div class="container">
         <div class="columns">
           <div class="column is-half-desktop">
-            <h2 class="title section-title has-text-grey is-size-5">Poznajmy się</h2>
+            <h2 class="title section-title is-size-5">Poznajmy się</h2>
             <p class="pb-2">
               Jestem Julia i zawodowo pracuję jako Software Engineer od 2020. Wcześniej chodziłam do technikum informatycznego, podczas którego rozwinęła się moja pasja i uczyłam się na własną rękę.
               
@@ -38,7 +34,7 @@
           </div>
           
           <div class="column is-half-desktop">
-            <h2 class="title section-title is-size-5 has-text-grey ">Jaki był cel utworzenia tego bloga?</h2>
+            <h2 class="title section-title is-size-5">Jaki był cel utworzenia tego bloga?</h2>
             <p class="pb-2">
               Założyłam tego bloga, aby móc spisywać swoje przemyślenia, nabytą wiedzę i pomysły. 
               Moim celem jest tworzenie przydatnej treści, a nie powielanie klikalnych buzzwordów. 
@@ -66,18 +62,13 @@
 </template>
 
 <script>
-  import Hero from '~/components/post/Hero'
-
-  import PostItem from '@/components/tile/PostItem'
-  import Pagination from '@/components/Pagination'
-  import Posts from '@/components/Posts'
+  import Pagination from '@/components/navigation/Pagination'
+  import Posts from '@/components/post/Posts'
 
   export default {
     components: {
-      PostItem,
       Pagination,
-      Posts,
-      Hero
+      Posts
     },
     data() {
       return {
